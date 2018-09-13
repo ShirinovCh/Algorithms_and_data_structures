@@ -10,10 +10,10 @@ public class QueueApp {
         q . insert ( 50 );
         q . remove ();
         q . remove ();
-        q . insert ( 50 );
         q . insert ( 60 );
         q . insert ( 70 );
         q . insert ( 80 );
+        q . insert ( 90 );
         while ( ! q . isEmpty () ){
             int n = q . remove ();
             System . out . println ( n );

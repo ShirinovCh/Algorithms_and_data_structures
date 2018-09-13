@@ -26,15 +26,19 @@ public class Queue {
         items --;
         return temp;
     }
+
     public int peek (){
         return queue [ front ];
     }
+
     public boolean isEmpty (){
         return ( items == 0 );
     }
+
     public boolean isFull (){
         return ( items == maxSize );
     }
+
     public int size (){
         return items;
     }
